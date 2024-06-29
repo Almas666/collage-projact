@@ -1,0 +1,150 @@
+.main-header {
+  background-color: bisque;
+  position: relative;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  another way of padding->padding 20px 40px;
+  
+} */
+}
+.container {
+  width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  position: relative;
+}
+/* .mar:ol {
+  margin-bottom: 20px;
+  margin-top: 20px;
+} */
+
+/* li:first-child {
+  color: olivedrab;
+} */
+/* 
+
+li:last-li {
+  color: aqua;s
+}; */
+
+/* hyperlinks (lvha) */
+a:link {
+  color: rgb(255, 0, 204);
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline dotted red;
+}
+
+a:active {
+  color: black;
+  font-style: italic;
+}
+
+h1 {
+  color: green;
+  text-align: center;
+  font-size: 50px;
+  font-family: "sans-serif";
+  font-style: initial;
+  text-transform: lowercase;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: red;
+  text-transform: uppercase;
+  line-height: 2.3;
+  line-height: 2.5;
+}
+
+li {
+  color: green;
+  text-align: left;
+  font-size: 50;
+  line-height: 1.5;
+}
+
+/*li{ padding: 20px 40px;
+  margin-top: 10px;} */
+
+#almas {
+  color: blue;
+}
+
+ol {
+  color: white;
+  font-weight: bold;
+  border: 5px dashed red;
+}
+
+/* li:first-child {
+  color: blue;
+} */
+
+/*li:last-child {
+  font-size: 20px;
+  color: dodgerblue;
+}*/
+
+/*article p:first-child {
+  color: blue;
+}*/
+
+a {
+  font-size: 50px;
+  text-transform: lowercase;
+  color: blue;
+}
+
+#copyright {
+  font-size: 16;
+  text-align: center;
+  color: brown;
+}
+/* conflicts between selectors*/
+
+/* #copyright {
+  color: black;
+}
+.copyright {
+  text-align: center;
+  color: red;
+}
+
+.text {
+  color: brown;
+}
+
+footer p {
+  color: blue;
+} */
+
+.related-author {
+  font-weight: bold;
+  color: rgb(7, 165, 239);
+}
+
+body {
+  /* position: relative; */
+  border-top: 10px solid #ad1010;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  /* margin-left: 800px; */
+
+  position: absolute;
+  /* top: 50px;
+  left: 50px; */
+  bottom: 50px;
+  right: 50px;
+}
